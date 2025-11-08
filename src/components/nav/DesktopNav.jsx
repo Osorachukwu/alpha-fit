@@ -14,7 +14,7 @@ export default function DesktopNav() {
                 {[
                     { title: "Home", path: "/" },
                     { title: "Transformations", path: "/transformations" },
-                    { title: "1-1 Vip coaching", path: "vip" },
+                    { title: "1-1 Vip coaching", path: "vip-coaching" },
                     { title: "FAQ", path: "faq" },
                     { title: "Contact", path: "contact" },
                 ].map((link, index) => (

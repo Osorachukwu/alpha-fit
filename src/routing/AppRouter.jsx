@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import Footer from "../components/Footer";
 import FAQS from "../pages/FAQS";
 import Contact from "../pages/Contact";
+import VipCoaching from "../pages/VipCoaching";
 
 
 export default function AppRoutes() {
@@ -19,6 +20,7 @@ export default function AppRoutes() {
             <Route path="/transformations" element={<Transformations />} />
             <Route path="/faq" element={<FAQS />} />
             <Route path="/contat" element={<Contact />} />
+            <Route path="/vip-coaching" element={<VipCoaching />} />
             {/* <Route path="/frontend-web-dev" element={<FrontendDev />} /> */}
           </Routes>
         </main>
