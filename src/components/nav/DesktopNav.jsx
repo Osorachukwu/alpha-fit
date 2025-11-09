@@ -5,7 +5,7 @@ export default function DesktopNav() {
     // let currentPath = window.location.pathname;
     // let currentPath = use.location?.pathname || "/";
     let currentPath = useLocation()?.pathname || "/";
-    console.log("Current Path:", currentPath);
+    // console.log("Current Path:", currentPath);
     return (
         <div className="navbar text-neutral-content hidden md:flex justify-between items-center absolute">
             <Link to="/" className="px-3 py-1">
@@ -20,7 +20,7 @@ export default function DesktopNav() {
                     { title: "FAQ", path: "/faq" },
                     { title: "Contact", path: "/contact" },
                 ].map((link, index) => (
-                    <li key={index} className={`${currentPath === link.path && "text-secondary-accent"}`}>
+                    <li key={index} className={`${currentPath === link.path && "text-secondary-accent font-semibold"}`}>
                         <Link to={link.path} className="">
                             {link.title}
                         </Link>
