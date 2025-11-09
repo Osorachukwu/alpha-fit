@@ -19,7 +19,7 @@ export default function AppRoutes() {
             <Route index element={<Home />} />
             <Route path="/transformations" element={<Transformations />} />
             <Route path="/faq" element={<FAQS />} />
-            <Route path="/contat" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/vip-coaching" element={<VipCoaching />} />
             {/* <Route path="/frontend-web-dev" element={<FrontendDev />} /> */}
           </Routes>

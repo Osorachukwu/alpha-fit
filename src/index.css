@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+    /* CTAs, Highlights, Key Icons, Active state of navigation items. */
+  --color-primary-accent: #DC2626;
+  /* Used in gradients (with red), progress bars, and secondary buttons. */
+  --color-secondary-accent: #FB923C;
+  /* Main Headers, Body Copy over dark backgrounds. */
+  --color-primary-text: #F3F4F6;
+}
+
+/* inline-block px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base md:text-lg 
+            font-semibold text-white bg-gradient-to-r from-red-600 to-yellow-500 
+            rounded-full transition-all duration-300 hover:from-red-700 hover:to-yellow-600 
+            hover:scale-105 transform hover:shadow-lg */

@@ -22,7 +22,7 @@ export default function Nav() {
         } text-black relative`}
       >
         {/* 💥💥💥💥💥💥 */}
-        <div className="flex justify-between items-center px-2 md:hidden shadow-2xl bg-gray-50">
+        <div className="flex justify-between items-center px-2 md:hidden shadow-2xl bg-gray-50 py-3">
           <Link
             to="/"
             aria-label="Go home"
@@ -86,7 +86,7 @@ export default function Nav() {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <div className="dropdown dropdown-right">
                 <div tabIndex={0} role="button" className="btnNav">
                   Click <ChevronDown size={16} />
@@ -143,11 +143,26 @@ export default function Nav() {
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> */}
 
             <li onClick={toggleMenu}>
-              <Link to="/about" className="btnNav">
-                About Us
+              <Link to="/transformations" className="btnNav">
+                Transformations
+              </Link>
+            </li>
+            <li onClick={toggleMenu}>
+              <Link to="/vip-coaching" className="btnNav">
+                1-1 VIP Coaching
+              </Link>
+            </li>
+            <li onClick={toggleMenu}>
+              <Link to="/faq" className="btnNav">
+                FAQ's
+              </Link>
+            </li>
+            <li onClick={toggleMenu}>
+              <Link to="/contact" className="btnNav">
+                Contact
               </Link>
             </li>
           </ul>
