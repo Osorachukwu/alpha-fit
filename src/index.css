@@ -2,12 +2,16 @@
 @plugin "daisyui";
 
 @theme {
-    /* CTAs, Highlights, Key Icons, Active state of navigation items. */
+  /* CTAs, Highlights, Key Icons, Active state of navigation items. */
   --color-primary-accent: #DC2626;
   /* Used in gradients (with red), progress bars, and secondary buttons. */
   --color-secondary-accent: #FB923C;
   /* Main Headers, Body Copy over dark backgrounds. */
   --color-primary-text: #F3F4F6;
+}
+
+.faq-shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 /* inline-block px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base md:text-lg 

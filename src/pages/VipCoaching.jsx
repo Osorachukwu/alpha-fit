@@ -1,5 +1,6 @@
 import { TriangleAlert } from "lucide-react";
 import React, { useState } from "react";
+import AltHero from "../components/AltHero";
 
 function VipCoaching() {
     const [formData, setFormData] = useState({
@@ -21,7 +22,8 @@ function VipCoaching() {
     console.log(formData)
 
     return (
-        <div className="text-white px-4 py-8">
+        <div className="text-white">
+            <AltHero heroTitle="1 on 1 VIP Coaching" subTitle="Transform your life with personalized guidance and mentorship" />
             <div className="border border-white rounded-xl p-6 max-w-lg mx-auto shadow-md bg-brand-primary/80 backdrop-blur-sm">
                 <h2 className="text-center text-2xl font-semibold mb-6">
                     Personal Information
