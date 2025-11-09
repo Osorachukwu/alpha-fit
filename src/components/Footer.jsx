@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../assets/logo-main.png"
 export default function Footer() {
     return (
-        <footer className="footer footer-horizontal footer-center bg-gradient-to-b to-gray-950 via-gray-700 from-gray-950 text-gray-300 p-5">
+        <footer className="footer footer-horizontal footer-center bg-gradient-to-b to-gray-900 via-gray-700 from-gray-900 text-gray-300 p-5">
             <aside>
                 <img src={logo} alt="Logo" width={80} />
                 <p className="font-bold">

@@ -34,7 +34,7 @@ export default function Nav() {
             </span> */}
           </Link>
           <div>
-            <button onClick={() => setIsOpen(!isOpen)} className={`group z-50`}>
+            <button onClick={() => setIsOpen(!isOpen)} className={`group z-50 pr-4`}>
               <div
                 className={`w-6 h-0.5 bg-white mb-1 transition-all duration-300 ease-in-out ${isOpen ? "rotate-45 translate-y-1.5" : ""
                   }`}
